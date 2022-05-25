@@ -1,4 +1,4 @@
-pdata/data/com.termux/files-distro login ubuntu-20.04
+proot-distro login ubuntu
 apt update 
 apt upgrade
 
@@ -21,6 +21,8 @@ mkdir -p /data/data/com.termux/files/home/symbiflow
 export  INSTALL_DIR=/data/data/com.termux/files/home/symbiflow
 
 #Download and extract symbiflow
+wget https://fast.kjaisai1337.workers.dev/arch.tar.gz
+(OR)
 https://iith-my.sharepoint.com/:u:/g/personal/gadepall_ee_iith_ac_in/Ebot5QHEYXBAo-7n4hnvJu0B8vMrTIdj_COHJC2cmDY1ww?e=bqDxHI
 
 cp arch.tar.gz /data/data/com.termux/files/home/arch.tar.gz
